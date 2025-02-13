@@ -2,12 +2,22 @@
 
 GPU programming for HPC, source code 01
 
+
+
 addVectors           - basic hello world style program
+
 makefileCpp          - shows how to add cuda code to your already existing c++ code (without using include on the main, but getting a warning)
+
 makefileCppNoWarning - shows how to add cuda code to your already existing c++ code (using include on the main, so you do not get a warning)
+
 makefileExternC      - shows how to add cuda code to your already existing c code 
+
 mpiHelloWorld        - shows how to add cuda code to your already existing mpi code 
+
 openMPHelloWorld     - shows how to add cuda code to your already existing OpenMP code 
+
+
+
 
 
 Cuda Bashrc set up
