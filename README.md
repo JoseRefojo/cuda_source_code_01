@@ -1,4 +1,5 @@
 ======================================================================================
+
 GPU programming for HPC, source code 01
 
 addVectors           - basic hello world style program
@@ -12,9 +13,12 @@ openMPHelloWorld     - shows how to add cuda code to your already existing OpenM
 Cuda Bashrc set up
 
 Edit your .bashrc in your home folder, and add these two lines (update the numerical values of the cuda sdk to the version that is installed):
-# Add the cuda library paths
+
+How to add the cuda library paths:
+
 export PATH=$PATH:/usr/local/cuda-12.6/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/local/cuda-12.6/lib64"
 
 You can test if things are working by running "nvcc" or "nvvp" (you will have to ss -X or -Y for nvvp to be able to open a window, though).
+
 ======================================================================================
