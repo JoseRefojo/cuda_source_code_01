@@ -32,3 +32,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/local/cuda-12.6/lib64"
 You can test if things are working by running "nvcc" or "nvvp" (you will have to ss -X or -Y for nvvp to be able to open a window, though).
 
 ======================================================================================
+
+git remote add origin git@github.com:JoseRefojo/cuda_source_code_01.git
+
+======================================================================================
+
